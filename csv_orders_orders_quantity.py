@@ -1,7 +1,7 @@
 from mysql_connector import get_mysql_connection
 import csv
 
-# Get MariaDB connection
+# Get MySQL connection
 conn = get_mysql_connection()
 
 # Create a cursor object to execute SQL queries
